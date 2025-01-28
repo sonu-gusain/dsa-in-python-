@@ -1,10 +1,9 @@
-#pattern 
-
-for i in range(1,5):
-    for j in range(1,5):
-        print(j,end ="")
+count = 1
+for i in range(3):
+    for j in range(3):
+        print(count,end="")
+        count= count+1
     print()
-
 
         
 
