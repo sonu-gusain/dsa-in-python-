@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 #inverted  trangle pattern
 # 1111
 #  222
@@ -12,7 +11,7 @@ for i in range(1,5):
         
     for k in range(5-i):
         print(i,end="")
-=======
+
 #peramid trangle 
 #    1
 #   121
@@ -27,6 +26,6 @@ for i in range(5):
         print(k,end="")
     for j in range(i-1,0,-1):
         print(j,end="")
->>>>>>> partternquestiondsa
+
     print()
 
