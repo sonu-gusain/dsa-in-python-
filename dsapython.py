@@ -1,4 +1,6 @@
 
+
+
 #hollow dimand pattern
 
 #   *
@@ -25,4 +27,5 @@ for i in range(3,0,-2):
             print("*",end="")
         else:
             print(" ",end="")
-    print()    
+    print() 
+
