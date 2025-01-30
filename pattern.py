@@ -15,7 +15,6 @@ def factorial(n):
     for i in range(1,n+1):
         fact = fact*i
     return fact
-print(factorial(3))
 
 def binomial(n,r):
     return factorial(n) // (factorial(r) * factorial(n-r))
