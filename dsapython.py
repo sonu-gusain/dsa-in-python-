@@ -1,13 +1,23 @@
 
-#binomial ...
+def butterfly(n):
+    # Upper Part
+    for i in range(1, n + 1):
+        for j in range(i):
+            print("*", end="")
+        for j in range(2 * (n - i)):
+            print(" ", end="")
+        for j in range(i):
+            print("*", end="")
+        print()
 
-def factorial(n):
-    fact = 1
-    for i in range(1,n+1):
-        fact = fact*i
-    return fact
+    # Lower Part
+    for i in range(n, 0, -1):
+        for j in range(i):
+            print("*", end="")
+        for j in range(2 * (n - i)):
+            print(" ", end="")
+        for j in range(i):
+            print("*", end="")
+        print()
 
-def binomial(n,r):
-    return factorial(n) // (factorial(r) * factorial(n-r))
-
-print(binomial(6,3))
+butterfly(5)
