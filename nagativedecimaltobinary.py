@@ -28,3 +28,4 @@ def decimal_to_binary(num):
                 carry = 0
     return compliment
 print(decimal_to_binary(-8))
+
